@@ -1,10 +1,10 @@
-main {
-  background-color: #bbff00;
+body {
+  background: darkslategray;
 }
-
 .main-nav {
   background-color: black;
   color: white;
+  font-size: small;
 }
 
 .main:hover {
@@ -14,4 +14,15 @@ main {
 .sticky-nav {
   position: sticky;
   top: 0;
+}
+
+.custom-footer {
+  font-size: 60%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
 }

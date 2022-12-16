@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 // import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ export default function MainNavbar() {
     return (
         <Navbar collapseOnSelect expand="lg" className="main-nav sticky-top navbar-dark" >
           <Container>
-            <Navbar.Brand className="text-white" href="/">jcaole</Navbar.Brand>
+            <Navbar.Brand className="text-white text-" href="/">jcaole</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
