@@ -1,31 +1,26 @@
-import './App.css';
+import React from "react";
+import Banner from "./components/banner/Banner";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import FooterBottom from "./components/footer/FooterBottom";
+import Navbar from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
+import Resume from "./components/resume/Resume";
 
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-
-import React, { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route /*, Link */} from 'react-router-dom';
-
-
-// const HomePage = lazy(()=> import('./pages/HomePage'));
-// const AboutPage = lazy(()=> import('./pages/AboutPage'));
-
-
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Suspense fallback={<h1>Loading WebPage...</h1>}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<AboutPage />} />
-          {/* <Route path="/:company" element={<HomePage/>}/> */}
-
-          <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />
-        </Routes>
-        </Suspense>
-      </BrowserRouter>
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+        <Navbar />
+      <div className="max-w-screen-xl mx-auto">
+        <Banner />
+        <Projects />
+        <Resume />
+        <Contact />
+        <Footer />
+        <FooterBottom />
+      </div>
     </div>
   );
-  
 }
+
+export default App;
