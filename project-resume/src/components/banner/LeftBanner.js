@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["UWF Graduate.", "Computer Science B.S. "],
+      words: ["University of West Florida Graduate.", "Bachelor's in Computer Science"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -22,7 +22,7 @@ const LeftBanner = () => {
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#ff014f"
+            cursorColor="#B88D21"
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
