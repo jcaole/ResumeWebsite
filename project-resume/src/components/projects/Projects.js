@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree} from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour} from "../../assets/index";
 // import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -36,7 +36,7 @@ const Projects = () => {
         <ProjectsCard
           title="Visualization of Sorting Algorithms"
           des=" As the project lead for the visualization of sorting algorithms, I coordinated meeting times and implemented Agile Development methodology. I also supervised the evaluation and debugging process of the system during testing procedures. Finally, I composed a final report that detailed the project and presented the final product."
-          src={projectThree}
+          src={projectFour}
         />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
