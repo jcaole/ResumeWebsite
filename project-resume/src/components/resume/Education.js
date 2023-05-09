@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="Bachelor's degree in Computer Science"
             subTitle="University of West Florida (2019 - 2023)"
-            result="3.90/4"
+            result="3.0/4"
             des="Accreditation: ABET, ABET is the recognized global accreditor of college and university programs in applied science, computin , engineeing and engineering technology 
             and is among the most respected accreditation organizations in the United States. ABET accreditation is assurance that a program meets the quality standards established by the profession for which it prepares its students."
           />
