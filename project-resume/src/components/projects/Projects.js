@@ -16,7 +16,7 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-12">
         <ProjectsCard
           title="Rogue-like Multiplayer Game"
           des=" As the Coding lead, I supervised the development of a multiplayer rogue-like adventure game, collaborating with three individuals to create a functional web application. Using the Flask web framework and MySQL database, we brainstormed, designed, and developed the web application.
@@ -38,24 +38,6 @@ const Projects = () => {
           des=" As the project lead for the visualization of sorting algorithms, I coordinated meeting times and implemented Agile Development methodology. I also supervised the evaluation and debugging process of the system during testing procedures. Finally, I composed a final report that detailed the project and presented the final product."
           src={projectFour}
         />
-        {/* <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectFour}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectFive}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectSix}
-        /> */}
       </div>
     </section>
   );
